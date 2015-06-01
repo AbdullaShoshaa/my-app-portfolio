@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
-    Button spotify, scores, library, buildIt, xyzreader, finalApp;
+    private Button spotify, scores, library, buildIt, xyzreader, finalApp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,19 +60,14 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
-        if(v.getId() == R.id.spotify_button){
-            makeToastMessage("Spotify Streamer");
-        }else if(v.getId() == R.id.scores_button){
-            makeToastMessage("Football Scores App");
-        }else if(v.getId() == R.id.library_button){
-            makeToastMessage("Library App");
-        }else if (v.getId() == R.id.reader_button){
-            makeToastMessage("XYZ Reader");
-        }else if(v.getId() == R.id.build_it_button){
-            makeToastMessage("Build It Bigger");
-        }else if(v.getId() == R.id.final_app_button){
-            makeToastMessage("Final App");
+        //check if the returning view is in type of button.
+        if(v instanceof Button){
+            //create a referance for a button and cast v to Button.
+            Button button =(Button) v;
+            //get the text of the clicked button and store it in appName object.
+            String appName = button.getText().toString();
+            //dispaly toast that holds the button clicked name with "This button will launch " phrase.
+            makeToastMessage(appName);
         }
     }
 

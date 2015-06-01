@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/pre-dexed/debug/classes-f6529ffed3626e10015b159cd9fdf013e59346a9.jar" />
-    </item>
-    <item
-        jar="/Users/Shoshaa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-dec0832960c7a754e5cd6ac1b1156c112a934966.jar" />
+        <dex dex="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/pre-dexed/debug/classes-1065d6dda772eb0a7588530506b383992de7a21d.jar" />
     </item>
     <item
         jar="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
@@ -28,6 +21,34 @@
         revision="22.0.1"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
         <dex dex="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/pre-dexed/debug/classes-20db497d5daf5abd48ee16ac1480585c5cc4e957.jar" />
+    </item>
+    <item
+        jar="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-c716e0c5845fced5874b848819ec4820d8240628.jar" />
+    </item>
+    <item
+        jar="/Users/Shoshaa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-dec0832960c7a754e5cd6ac1b1156c112a934966.jar" />
+    </item>
+    <item
+        jar="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/Shoshaa/Desktop/NanoDegree/app/build/intermediates/pre-dexed/debug/classes-f6529ffed3626e10015b159cd9fdf013e59346a9.jar" />
+    </item>
+    <item
+        jar="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/Shoshaa/Desktop/my-app-portfolio/app/build/intermediates/pre-dexed/debug/classes-565f07a2cc1bad191958f1b1d7cc1b12d7b9be25.jar" />
     </item>
 
 </items>
